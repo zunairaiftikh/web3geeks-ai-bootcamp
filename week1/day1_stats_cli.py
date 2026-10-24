@@ -1,59 +1,62 @@
 
 import sys
+import numpy as np
 
 
 def get_numbers():
-    if len(sys.argv) > 2 and sys.argv[1] == "--file":
-        with open(sys.argv[2], "r") as file:
+    """Read numbers from command-line input or a text file."""
+    if len(sys.argv) < 2:
+        raise ValueError(
+            "Enter numbers or use --file followed by a file path."
+        )
+
+    if sys.argv[1] == "--file":
+        if len(sys.argv) != 3:
+            raise ValueError(
+                "Usage: python day1_numpy.py --file PATH"
+            )
+
+        with open(sys.argv[2], "r", encoding="utf-8") as file:
             text = file.read()
     else:
         text = " ".join(sys.argv[1:])
 
-    if text.startswith("--file"):
-        text = text.replace("--file", "", 1).strip()
+    parts = text.replace(",", " ").split()
 
-    numbers = [
-        float(value)
-        for value in text.replace(",", " ").split()
-    ]
+    if not parts:
+        raise ValueError("No numbers were provided.")
 
-    if len(numbers) == 0:
-        raise ValueError("Please provide some numbers.")
+    try:
+        numbers = np.array([float(value) for value in parts])
+    except ValueError:
+        raise ValueError("Invalid input. Please enter numbers only.")
+
+    if not np.all(np.isfinite(numbers)):
+        raise ValueError("Please enter finite numbers only.")
 
     return numbers
 
 
 def main():
-    numbers = get_numbers()
+    try:
+        numbers = get_numbers()
 
-    count = len(numbers)
-    mean = sum(numbers) / count
+        mean = np.mean(numbers)
+        std_dev = np.std(numbers)
+        outliers = numbers[np.abs(numbers - mean) > 2 * std_dev]
 
-    sorted_numbers = sorted(numbers)
-    middle = count // 2
+        print("Count:", len(numbers))
+        print(f"Mean: {mean:.2f}")
+        print(f"Median: {np.median(numbers):.2f}")
+        print(f"Minimum: {np.min(numbers):g}")
+        print(f"Maximum: {np.max(numbers):g}")
+        print(f"Population standard deviation: {std_dev:.2f}")
+        print("Potential outliers:", outliers.tolist())
 
-    if count % 2 == 1:
-        median = sorted_numbers[middle]
-    else:
-        median = (
-            sorted_numbers[middle - 1] + sorted_numbers[middle]
-        ) / 2
-
-    minimum = min(numbers)
-    maximum = max(numbers)
-
-    variance = sum((x - mean) ** 2 for x in numbers) / count
-    std_dev = variance ** 0.5
-
-    print("Count:", count)
-    print("Mean:", round(mean, 2))
-    print("Median:", round(median, 2))
-    print("Minimum:", minimum)
-    print("Maximum:", maximum)
-    print("Standard deviation:", round(std_dev, 2))
+    except (ValueError, OSError) as error:
+        print("Error:", error)
+        sys.exit(1)
 
 
-try:
+if __name__ == "__main__":
     main()
-except (ValueError, OSError, IndexError) as error:
-    print("Error:", error)
