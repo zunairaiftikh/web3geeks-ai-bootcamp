@@ -1,0 +1,201 @@
+text,category,predicted_intent,confidence,correct,needs_human
+How do I link this new card?,card_linking,card_linking,0.8395963964771507,True,False
+How do I retrieve my card from the machine?,card_swallowed,card_not_working,0.056942198965365114,False,True
+I want to know where the funds come from.,verify_source_of_funds,verify_source_of_funds,0.7243101844958593,True,False
+"I just activated auto top-up, but it is not letting me enable it. Why not?",automatic_top_up,automatic_top_up,0.16613977037116587,True,True
+Why did I have to pay extra because I paid with card?,card_payment_fee_charged,card_payment_fee_charged,0.4292669521473823,True,False
+How can I fix a problem where contactless isn't working?,contactless_not_working,contactless_not_working,0.16507754372869393,True,True
+I took out a foreign currency and the exchange rate is wrong.,wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,0.47080179867890887,True,False
+Will it automatically top-up money if there isn't a lot left?,automatic_top_up,automatic_top_up,0.3718227008681164,True,True
+"I see my top-up was canceled, but why?",top_up_reverted,top_up_reverted,0.4765582944927507,True,False
+I lost my phone!,lost_or_stolen_phone,lost_or_stolen_phone,0.9755424033544331,True,False
+Can I add money with Apple Pay?,apple_pay_or_google_pay,apple_pay_or_google_pay,0.579056359205176,True,False
+"$1 extra has been charged on my statement, why is that?",extra_charge_on_statement,extra_charge_on_statement,0.7395349845226927,True,False
+How do I get my top-up verification code?,verify_top_up,verify_top_up,0.8099037761143827,True,False
+Where do my funds come from?,verify_source_of_funds,verify_source_of_funds,0.8511916436482057,True,False
+How can I fix a problem where my virtual card is rejected?,virtual_card_not_working,getting_virtual_card,0.35728631315528614,False,True
+"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",fiat_currency_support,balance_not_updated_after_cheque_or_cash_deposit,0.08531350429200274,False,True
+What fiat currencies are supported for holding and exchange?,fiat_currency_support,fiat_currency_support,0.9294287477462404,True,False
+Is there an age minimum?,age_limit,age_limit,0.3057338209318525,True,True
+"I am traveling to Germany, Will I be able to use my card there?",card_acceptance,card_not_working,0.10227248521884337,False,True
+I would like to know why I was charged twice for my purchase.,transaction_charged_twice,transaction_charged_twice,0.4115000682932178,True,False
+"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,0.5913289034532854,True,False
+What do you charge for physical cards?,order_physical_card,order_physical_card,0.46853433930448835,True,False
+Can I change my information?,edit_personal_details,edit_personal_details,0.3836316860636928,True,True
+Help!  I can't find my card.,lost_or_stolen_card,lost_or_stolen_card,0.19343800119617555,True,True
+How would I use my money in a different country?,exchange_via_app,fiat_currency_support,0.04496997566831055,False,True
+"I sent out money, but was charged extra for transferring. Why?",transfer_fee_charged,transfer_fee_charged,0.34823275652824853,True,True
+What type of ATMs accept this card?,atm_support,atm_support,0.3729736134170197,True,True
+places i can use the card,card_acceptance,card_acceptance,0.10425365609753919,True,True
+"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",extra_charge_on_statement,extra_charge_on_statement,0.11445000782770767,True,True
+I am experiencing difficulty providing my identity.,unable_to_verify_identity,unable_to_verify_identity,0.22100283500924278,True,True
+"If I feel someone has my card information, can I get a new card?",compromised_card,card_about_to_expire,0.1342820020360962,False,True
+How long will it take to arrive?,card_delivery_estimate,card_delivery_estimate,0.3020114195198182,True,True
+I wasn't applied the correct exchange rate for an item I bought,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,0.80498087895319,True,False
+Are there any fees for adding money with an international card?,top_up_by_card_charge,top_up_by_card_charge,0.7802125236403218,True,False
+I couldn't get cash at the atm,declined_cash_withdrawal,declined_cash_withdrawal,0.6575287050830518,True,False
+"I want to add money but don't know what currencies you accept, can you tell me?",supported_cards_and_currencies,supported_cards_and_currencies,0.4979066598911062,True,False
+I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,0.2528068578511493,True,True
+I am awaiting my refund,Refund_not_showing_up,Refund_not_showing_up,0.8901515860887174,True,False
+"My top up hasn't worked, it's been stuck in pending for the last couple hours",pending_top_up,pending_top_up,0.2015553764349205,True,True
+Where are cards delivered to?,order_physical_card,order_physical_card,0.45752235533888524,True,False
+What will I be charged for a physical card?,order_physical_card,order_physical_card,0.38979020436441164,True,True
+Which fiat currencies do you support?,fiat_currency_support,fiat_currency_support,0.8766406771209525,True,False
+The balance on my account wasn't updated after I made a depost.,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_bank_transfer,0.4484630864927786,False,False
+Has someone accessed my card there are payments I did not make that are showing up on the app.,card_payment_not_recognised,card_payment_not_recognised,0.3518561464315299,True,True
+Can I change the amount I made on a payment that I made to the payment is correct.,cancel_transfer,pending_card_payment,0.1666337353414558,False,True
+My top-up has been cancelled.,top_up_reverted,top_up_reverted,0.6724643930529076,True,False
+How do I use the app if I don't have my phone with me?,lost_or_stolen_phone,lost_or_stolen_phone,0.6524170933628382,True,False
+The exchange rates are?,exchange_rate,exchange_rate,0.8907768278343916,True,False
+HOw do I get my card back after the ATM has pulled it in?,card_swallowed,card_swallowed,0.3846248806589198,True,True
+I'm unable to use contactless payments for purchases.,contactless_not_working,contactless_not_working,0.17296348634957565,True,True
+I have been charged twice,transaction_charged_twice,transaction_charged_twice,0.8889459947565669,True,False
+Top up on my Google Pay isn't working.,apple_pay_or_google_pay,apple_pay_or_google_pay,0.8690364157920833,True,False
+What extra charges are there?,transfer_fee_charged,extra_charge_on_statement,0.05552389537447051,False,True
+Do you know the closest ATM?,atm_support,atm_support,0.15733444518170636,True,True
+What kind of currency can I hold money in?,fiat_currency_support,fiat_currency_support,0.42878828592623247,True,False
+What is the limit to disposable cards you can have?,disposable_card_limits,disposable_card_limits,0.5443968759110636,True,False
+Can I link an existing card?,card_linking,card_linking,0.2941335526705113,True,True
+What is the activation process on my new card?,activate_my_card,activate_my_card,0.56704909131243,True,False
+I bought an item and noticed the exchange rate was not correct.,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,0.7088910218231718,True,False
+Is there a way to transfer funds directly from my card?,topping_up_by_card,verify_source_of_funds,0.05424898303622633,False,True
+How can I top up with Google Pay?,apple_pay_or_google_pay,apple_pay_or_google_pay,0.9112243471047862,True,False
+I purchased an item and the exchange rate I was given was incorrect.,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,0.7080792627875047,True,False
+Are you able to explain the restrictions of the disposable cards?,disposable_card_limits,disposable_card_limits,0.526754435667389,True,False
+How do I make an exchange from one currency to another?,exchange_via_app,exchange_via_app,0.24822115681445817,True,True
+How can I process a refund for something I purchased?,request_refund,request_refund,0.582089586802842,True,False
+Why was I charged multiple times for the same thing?,transaction_charged_twice,transaction_charged_twice,0.7562555463500616,True,False
+can you tell me what cards and currencies you take?,supported_cards_and_currencies,supported_cards_and_currencies,0.3047010773149775,True,True
+"I was out today looking forward to pay with my new card, turns out the payment just kept getting declined. This is really sad, what's going on?",declined_card_payment,declined_card_payment,0.36122009016513795,True,True
+I would like to make a transfer. How much does it cost?,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,0.24478833997931437,True,True
+What do I need to do to transfer my paycheck to my account?,receiving_money,transfer_into_account,0.10172918706284775,False,True
+"Please, activate my card",activate_my_card,activate_my_card,0.9670551893030367,True,False
+How many days does it take until funds are in my account?,transfer_timing,transfer_timing,0.22245087563305105,True,True
+How do I link a card that I already have?,card_linking,card_linking,0.573399094506127,True,False
+What is the base amount for cross-currency exchanges?,exchange_charge,exchange_charge,0.3538337009700118,True,True
+They declined my card payment.,declined_card_payment,declined_card_payment,0.7962789193539765,True,False
+Can you tell me if my pop-up went through?,top_up_failed,pending_top_up,0.07383639366803553,False,True
+There's a refund missing from my statement,Refund_not_showing_up,Refund_not_showing_up,0.6057018976859901,True,False
+Where are the locations of ATMs that accept this card?,atm_support,atm_support,0.5895807757851946,True,False
+"When considering currency holdings and exchanges, what fiat currencies are supported?",fiat_currency_support,fiat_currency_support,0.8368316901552809,True,False
+Why hasn't my transfer been made?,failed_transfer,transfer_not_received_by_recipient,0.12839251196152002,False,True
+I need my card quickly,card_delivery_estimate,card_delivery_estimate,0.2891148789237504,True,True
+How can I speed up a transfer?  Mine is pending.,pending_transfer,pending_transfer,0.1925506462631506,True,True
+I had a duplicate card and got charged twice. How do I resolve this?,transaction_charged_twice,transaction_charged_twice,0.6637426874928095,True,False
+Do you accept other currencies besides US Dollars?,supported_cards_and_currencies,supported_cards_and_currencies,0.30976134846536313,True,True
+I am seeing in the App a some cash withdrawal that its not mine,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,0.5929772976496079,True,False
+I want to change my personal details.,edit_personal_details,edit_personal_details,0.9468508489845456,True,False
+What is the best way to exchange currency between USD and GBP using your app?,exchange_via_app,exchange_via_app,0.6763832499398139,True,False
+The app reverted what I topped up.,top_up_reverted,top_up_reverted,0.592998195946696,True,False
+What is the process for using my credit card to transfer money?,topping_up_by_card,topping_up_by_card,0.40500017868100807,True,False
+Why did I only get $20 when I tried to get $100,wrong_amount_of_cash_received,wrong_amount_of_cash_received,0.5016097927370501,True,False
+I tried to withdraw money but I was declined!,declined_cash_withdrawal,declined_cash_withdrawal,0.7390938889581606,True,False
+I have exceeded the number of times I can try my PIN,pin_blocked,pin_blocked,0.33249935222603016,True,True
+"I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?",cash_withdrawal_charge,cash_withdrawal_charge,0.5485584129021558,True,False
+Where do you support?,country_support,supported_cards_and_currencies,0.12898697607328427,False,True
+Is PIN delivered separately?,get_physical_card,get_physical_card,0.3963794240838402,True,True
+I made a transaction this morning and would like to revert it.,cancel_transfer,cancel_transfer,0.5215325606190696,True,False
+"I noticed an extra $1 charge on my statement, can you tell me why that is?",extra_charge_on_statement,extra_charge_on_statement,0.6608148688875077,True,False
+Why was I chaged twice for the same thing?,transaction_charged_twice,transaction_charged_twice,0.7873179203033933,True,False
+"When I submit a transfer, it is being declined.  The information I put in has been reviewed.",declined_transfer,declined_transfer,0.1981737713380041,True,True
+How do I do an international transfer?,transfer_into_account,balance_not_updated_after_bank_transfer,0.06872955796479807,False,True
+How long will it take for the card to arrive?,card_delivery_estimate,card_delivery_estimate,0.4208640564695588,True,False
+"If I request that my funds be held, what currencies do you use?",fiat_currency_support,fiat_currency_support,0.191858595836472,True,True
+Where can I find the verification code on a top-up card?,verify_top_up,verify_top_up,0.840056272566414,True,False
+"There are transactions I didn't make, someone else must have used my card.",compromised_card,compromised_card,0.47451001496468176,True,False
+How do I get my salary through this account?,receiving_money,receiving_money,0.49863026421763007,True,False
+Why is my money gone right when I attempted to top up,topping_up_by_card,topping_up_by_card,0.10300958949854476,True,True
+"When I tried to pay for my bus ride, the contactless payment wouldn't work. How can I prevent this in the future?",contactless_not_working,contactless_not_working,0.061039719350175166,True,True
+Will it automatically top-up or do I need to do that manually if there isn't much cash left?,automatic_top_up,automatic_top_up,0.22721438243856726,True,True
+I paid for something in foreign currency but noticed the exchange rate is incorrect.,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,0.6257998012503828,True,False
+How can I get my physical card to work?,card_not_working,order_physical_card,0.31760968357454106,False,True
+When will a transfer reach my account?,transfer_timing,transfer_timing,0.37430135901434713,True,True
+What is this €1 fee in my statement?,extra_charge_on_statement,extra_charge_on_statement,0.5851780237177572,True,False
+How do I link one your card if I have one already?,card_linking,card_linking,0.3423882120519492,True,True
+I have never been charged a fee for cash withdrawal before. When did that change?,cash_withdrawal_charge,cash_withdrawal_charge,0.5502470315459808,True,False
+"My card's frozen, what can I do?",pin_blocked,card_not_working,0.10046959234640734,False,True
+Will I get charged for topping off my card?,top_up_by_card_charge,top_up_by_card_charge,0.11509716882090133,True,True
+What are the rules for transferring to a beneficiary?,beneficiary_not_allowed,beneficiary_not_allowed,0.3586425279857994,True,True
+What would lead to my top up still pending?,pending_top_up,pending_top_up,0.716345154738824,True,False
+"If I have more than one disposable card, can I make five payments on each of them?",disposable_card_limits,disposable_card_limits,0.24941117912479316,True,True
+Why is it important to verify a top-up card?,verify_top_up,verify_top_up,0.7123634055698117,True,False
+Why is it asking me to verify my identity,why_verify_identity,why_verify_identity,0.5861310482951544,True,False
+I attempted to top up but the app denied it.,top_up_failed,top_up_failed,0.48835422749270235,True,False
+Why would I have a pending payment?,pending_card_payment,pending_card_payment,0.5460381836027766,True,False
+There's a recent charge on my card that I know I didn't make because I've never seen the name before. Can we investigate this?,card_payment_not_recognised,card_payment_not_recognised,0.29378003629028815,True,True
+"Something went wrong, I was charged an extra pound?",extra_charge_on_statement,extra_charge_on_statement,0.5795656248339074,True,False
+I need it delivered by Saturday.,card_delivery_estimate,card_delivery_estimate,0.27303751396454073,True,True
+Can I exchange between GBP and USD on the app?,exchange_via_app,exchange_via_app,0.608271790928236,True,False
+I topped up but the app reverted it,top_up_reverted,top_up_reverted,0.47208574936992154,True,False
+How do I locate my card?,card_arrival,card_linking,0.0732329760684672,False,True
+Do you offer additional currency options?,fiat_currency_support,exchange_charge,0.09506941314425814,False,True
+I checked my account today and it said I was out of money. How do I transfer money into my account?,transfer_into_account,transfer_into_account,0.352815241147974,True,True
+How do I unblock my PIN?,pin_blocked,pin_blocked,0.9114685463598331,True,False
+"Hi, I'm buying a flat and I'm trying to get my mortgage to go though. Every time I check I simply get an error message. Is there any way you can help me get this money transferred over. Thanks!",failed_transfer,failed_transfer,0.14276361684513095,True,True
+I transferred money but the recipient says it has not arrived. Why would this be?,transfer_not_received_by_recipient,transfer_not_received_by_recipient,0.47267973818155334,True,False
+How do I know when my card will arrive?,card_arrival,card_delivery_estimate,0.10374519232873172,False,True
+Do you charge for physical cards,order_physical_card,order_physical_card,0.46155844647492666,True,False
+I am still waiting for my card after 1 week.  Is this ok?,card_arrival,card_arrival,0.22875632071527502,True,True
+Is it a good time to exchange?,exchange_rate,exchange_via_app,0.10871562502477523,False,True
+Tell me how to go about activating my new card?,activate_my_card,activate_my_card,0.6121044099939494,True,False
+what is the top up limit,top_up_limits,top_up_limits,0.8020805228721326,True,False
+Will you deal with SWIFT transfers?,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,0.3011058574318263,True,True
+How do I unblock my card using the app?,card_not_working,card_linking,0.145072594391423,False,True
+I don't recognise a cash withdrawal,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,0.35458909579628667,True,True
+I can't find the top-up verification code.,verify_top_up,verify_top_up,0.9322057851904303,True,False
+How many times can I use a disposable card?,disposable_card_limits,disposable_card_limits,0.6629283486500788,True,False
+Why is my transfer not done yet?,pending_transfer,pending_transfer,0.14143981859478447,True,True
+The ATM keeps declining my card. I tried at a couple different ATMs. Can you tell me if there's a problem with my account?,declined_cash_withdrawal,declined_cash_withdrawal,0.22880385700896835,True,True
+How long does a UK transfer take?,balance_not_updated_after_bank_transfer,transfer_timing,0.3143908184537663,False,True
+I submitted my transfer but it has been pending for quite a while and I was wondering what takes so long? why hasn't it completed,pending_transfer,pending_transfer,0.22268320363227076,True,True
+"I would like to know why my payment is still pending, can you help?",pending_transfer,pending_card_payment,0.3707125200280407,False,True
+ATM still has my card,card_swallowed,card_arrival,0.08157556172856208,False,True
+I am trying to exchange crypto and it's not working. Tell me how to fix this.,beneficiary_not_allowed,beneficiary_not_allowed,0.10091982906763879,True,True
+Help me locate the nearest ATM.,atm_support,declined_cash_withdrawal,0.07846105000783504,False,True
+My transfer got declined.,declined_transfer,declined_transfer,0.7643602227066324,True,False
+What is the source of my money?,verify_source_of_funds,verify_source_of_funds,0.6770931843696971,True,False
+app doesnt think its me,unable_to_verify_identity,unable_to_verify_identity,0.08770119010161154,True,True
+WHERE IS MY MONEY I WAS USING MY CARD AND IT DISAPPEARED,topping_up_by_card,card_payment_fee_charged,0.052559162150038405,False,True
+I purchased something in a foreign currency but the rate applied is wrong,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,0.5441308313742916,True,False
+"Hi,I tried to get some money out but the machine was not working .The transaction still seems in progress! Can you please check what's going on.I don't want to be charged for money that I did not received.",pending_cash_withdrawal,pending_cash_withdrawal,0.2296390961112356,True,True
+How do I retrieve a trapped card from a ATM?,card_swallowed,card_swallowed,0.04423236247540808,True,True
+Why is there a pending transaction on my card?,pending_card_payment,pending_card_payment,0.2421385850359035,True,True
+"You keep declining my transfers? It's always been working really well so far, but when I tried to buy something just now the card got declined. I tried couple times already but same thing.",declined_transfer,declined_transfer,0.4391295363622647,True,False
+Can I transfer money to a beneficiery?,beneficiary_not_allowed,beneficiary_not_allowed,0.2218312249399361,True,True
+Someone stopped my payment,reverted_card_payment?,reverted_card_payment?,0.37189558584802973,True,True
+How do I deposit my paycheck to this account?,receiving_money,transfer_into_account,0.06257365513234352,False,True
+Why are there so many fees on my statement?,extra_charge_on_statement,extra_charge_on_statement,0.1785894840390947,True,True
+Does it cost money for currency exchange services?,exchange_charge,exchange_charge,0.3284513425929485,True,True
+Can I top up by cheque?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,0.7099273936325596,True,False
+I didn't get all the cash I requested for at the ATM,wrong_amount_of_cash_received,wrong_amount_of_cash_received,0.6792026050164596,True,False
+The app reverted my action when I topped up.,top_up_reverted,top_up_reverted,0.43993280187638173,True,False
+The right amount of cash was not sent to me.,wrong_amount_of_cash_received,wrong_amount_of_cash_received,0.6394414903868688,True,False
+Please give me both a visa and a master card.,visa_or_mastercard,visa_or_mastercard,0.3785102829759623,True,True
+How can I find the top-up verification code?,verify_top_up,verify_top_up,0.9237799410851262,True,False
+Are you able to unblock my pin?,pin_blocked,pin_blocked,0.6425802852718095,True,False
+What locations can I top up with cash?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,0.43845651656485696,True,False
+I think I see a withdraw I did not make.,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,0.21248152967699432,True,True
+price of physical card,order_physical_card,order_physical_card,0.5033639480367623,True,False
+Why did my transfer not go through?,failed_transfer,failed_transfer,0.3895851602033358,True,True
+how come i can't find anywhere to load using cash,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,0.06119961841580786,True,True
+How can I withdraw money?,atm_support,atm_support,0.2988722419669737,True,True
+It seems there is an incorrect listing of a direct debit payment on my app that I did not make,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,0.8669333566662083,True,False
+Can this app help me exchange currencies?,exchange_via_app,exchange_via_app,0.6906804318309877,True,False
+I had to pay in order to do a transfer,transfer_fee_charged,failed_transfer,0.04316287769533804,False,True
+"card is lost, please help",lost_or_stolen_card,lost_or_stolen_card,0.32511106611237545,True,True
+"My card is stuck in the ATM, what can I do?",card_swallowed,card_swallowed,0.3653170038578877,True,True
+"Hey I tried to get some money out earlier but the machine didn't work. Now just saw the transaction still seems in progress! Can you please check what's going there, seems something is broken, I don't want to be charged for money that I haven't actually received!",pending_cash_withdrawal,pending_cash_withdrawal,0.2307959258174904,True,True
+How much does it cost in fees to use your card?,order_physical_card,top_up_by_card_charge,0.13719812863523417,False,True
+Which credit or debit cards can I use to top up?,supported_cards_and_currencies,supported_cards_and_currencies,0.4401687240876888,True,False
+"I received my new card, but I don't see it in the app anywhere.  What do I do?",card_linking,card_linking,0.3710979291930394,True,True
+"If I use a European bank card for top up, Do I get charged?",top_up_by_card_charge,top_up_by_card_charge,0.5608368990781174,True,False
+Will there be any extra fees for European bank card for top up?,top_up_by_card_charge,top_up_by_card_charge,0.6444601482304668,True,False
+How can I find out where my contactless works?,contactless_not_working,contactless_not_working,0.1398783076653877,True,True
+Trouble transferring transaction contact for help,declined_transfer,cancel_transfer,0.10423705728263878,False,True
+I would like to exchange currencies,exchange_via_app,exchange_via_app,0.6468684696174356,True,False
+I need to change my account details,edit_personal_details,edit_personal_details,0.9257354281958879,True,False
+I have to transfer something to China as fast as I can. How long will it take to arrive in China?,transfer_timing,transfer_timing,0.49756370940359645,True,False
+How do I go about setting up an account for my daughter?,age_limit,age_limit,0.4707247499995489,True,False
+What do I do when my card is about to expire?,card_about_to_expire,card_about_to_expire,0.8023252219743899,True,False
+Where can I get my card at?,order_physical_card,atm_support,0.10397314975745144,False,True
+What all currencies can be exchanged?,exchange_via_app,fiat_currency_support,0.15741081787383504,False,True
