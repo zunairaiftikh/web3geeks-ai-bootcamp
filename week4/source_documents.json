@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.netixsol.com/",
+    "title": "Netixsol — Homepage",
+    "text": "Netixsol builds AI agents, DeFi protocols and the products around them for clients worldwide, from Dubai and Pakistan. The homepage identifies its three main practices as AI agents and data, blockchain and DeFi, and product engineering. Its delivery process is: scope through a 30-minute call and written brief with milestones; architecture and threat model; milestone builds that produce working software; and audit and handover with documentation. The homepage says a project starts with a short brief, followed by a 30-minute scoping call and a written proposal with milestones. Every engagement is quoted after a scoping call because cost depends on scope, chains, integrations and audit needs. The homepage lists engineering in Faisalabad, Pakistan and a front office in Dubai, UAE."
+  },
+  {
+    "url": "https://www.netixsol.com/ai-agents",
+    "title": "Netixsol — AI agents and data",
+    "text": "Netixsol builds AI agents that answer questions, take actions and work with client data. The company designs the agent, connects it to client systems, tests it against real cases and runs it in production. The page describes tool-using agents that plan steps, call tools and APIs, and hand off to a person when appropriate; NLP-to-SQL analytics; LLM assistants grounded in documents and knowledge bases using retrieval-augmented generation (RAG); data pipelines; and evaluation and guardrails. The page says a person approves any step that writes, pays or sends. It lists typed tool inputs, step limits, retries and timeouts, human hand-off, and traces of each step and tool result. RAG assistants answer from documents and knowledge bases, cite passages, and should give a no-answer response when sources do not cover a question."
+  },
+  {
+    "url": "https://www.netixsol.com/blockchain-development",
+    "title": "Netixsol — Blockchain and DeFi",
+    "text": "Netixsol designs, builds and audits DeFi protocols, exchanges and smart contracts. The page lists decentralized exchanges, DeFi protocols including lending and borrowing markets, smart contracts, staking and liquid staking, asset tokenization, crypto wallets, NFT marketplaces, dApps and smart contract audits. The page names Ethereum, Polygon, Arbitrum, Optimism, BNB Smart Chain and Tron among supported chains. It describes security practices including invariant tests, documented admin powers, multisig and timelock recommendations, oracle staleness and deviation checks, and audit-ready milestones. The company states it builds and reviews software and does not provide investment advice or legal opinions."
+  },
+  {
+    "url": "https://www.netixsol.com/product-engineering",
+    "title": "Netixsol — Product engineering",
+    "text": "Netixsol scopes, designs and builds web platforms, internal tools and learning systems for funded startups and mid-sized companies. Every milestone ends in working software with code and documentation the client's team needs to run it. The page lists customer-facing web platforms, internal tools and management systems, learning management systems, and apps around agents and protocols. Its web platform process includes product scoping and a written milestone plan, UI and UX design in Figma before build, React front ends over typed APIs, accounts, roles, notifications and payments. Internal tools can include role-based access, audit logs, dashboards, reports, spreadsheet imports, approval steps and notifications. The page mentions React, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, Vercel, Railway, AWS, DigitalOcean and Docker."
+  },
+  {
+    "url": "https://www.netixsol.com/uae",
+    "title": "Netixsol — UAE",
+    "text": "Netixsol's front office is at Innovation One, DIFC, Dubai, UAE, and its engineering team is in Pakistan. The UAE page says enquiries, scoping calls and project reviews can run in Gulf time. It describes a project process: first contact by email, phone, WhatsApp or Telegram with a reply within one business day; a 30-minute scoping call followed by a written proposal with milestones and a quote; milestone builds; and handover of code, documentation and deployment access. The page says Netixsol offers AI agents and data, blockchain and DeFi, and product engineering in the UAE. It does not provide legal or regulatory advice; clients work with their own legal advisers."
+  }
+]

@@ -1,0 +1,75 @@
+time_utc,tool_name,argument_summary,result
+2026-11-12T08:02:41.116020+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T08:02:41.116922+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-12T08:02:41.124509+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: duplicate enquiry already saved
+2026-11-12T08:02:41.129330+00:00,save_enquiry,category='Product Engineering'; description_chars=62; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T08:02:41.129926+00:00,save_enquiry,previous preview replaced,blocked: previous preview invalidated by changed/new preview
+2026-11-12T08:02:41.133463+00:00,save_enquiry,category='Product Engineering'; description_chars=71; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T08:02:41.133749+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T08:02:41.137236+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T08:02:41.137556+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T08:02:41.137989+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T08:02:41.138305+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T08:02:41.138632+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false
+2026-11-12T08:45:30.737496+00:00,search_netixsol,query_chars=40,returned 4 chunks
+2026-11-12T08:48:43.883147+00:00,search_netixsol,query_chars=39,returned 4 chunks
+2026-11-12T08:51:14.424782+00:00,save_enquiry,category='AI Agents & Data'; description_chars=118; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-12T08:51:47.177916+00:00,save_enquiry,confirmed_preview,blocked: N8N_WEBHOOK_URL not configured
+2026-11-12T08:52:12.164904+00:00,search_netixsol,query_chars=34,returned 4 chunks
+2026-11-12T08:54:41.668917+00:00,save_enquiry,category='AI Agents & Data'; description_chars=118; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T08:55:12.001053+00:00,save_enquiry,category=AI Agents & Data; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-12T08:56:27.945858+00:00,save_enquiry,category='AI Agents & Data'; description_chars=56; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T09:34:04.909613+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T09:34:04.912277+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-12T09:34:04.915673+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: duplicate enquiry already saved
+2026-11-12T09:34:04.923155+00:00,save_enquiry,category='Product Engineering'; description_chars=62; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T09:34:04.924950+00:00,save_enquiry,previous preview replaced,blocked: previous preview invalidated by changed/new preview
+2026-11-12T09:34:04.937447+00:00,save_enquiry,category='Product Engineering'; description_chars=71; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T09:34:04.938451+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T09:34:04.949766+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T09:34:04.950547+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T09:34:04.961446+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T09:34:04.962777+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T09:34:04.964015+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false
+2026-11-12T11:22:56.697235+00:00,save_enquiry,category='Product Engineering'; description_chars=50; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:24:10.616290+00:00,save_enquiry,category=Product Engineering,blocked: webhook request failed (ConnectionError)
+2026-11-12T11:32:29.730571+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:32:29.732332+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-12T11:32:29.734816+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: duplicate enquiry already saved
+2026-11-12T11:32:29.744241+00:00,save_enquiry,category='Product Engineering'; description_chars=62; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:32:29.745231+00:00,save_enquiry,previous preview replaced,blocked: previous preview invalidated by changed/new preview
+2026-11-12T11:32:29.750193+00:00,save_enquiry,category='Product Engineering'; description_chars=71; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:32:29.750751+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T11:32:29.762930+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:32:29.763513+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T11:32:29.766449+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T11:32:29.767172+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T11:32:29.767783+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false
+2026-11-12T11:32:58.773728+00:00,save_enquiry,category='Product Engineering'; description_chars=50; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:34:09.447594+00:00,save_enquiry,human_next_message,blocked: prior preview invalidated; exact token was not supplied
+2026-11-12T11:36:46.203577+00:00,save_enquiry,category='Product Engineering'; description_chars=50; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:37:20.896405+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-12T11:38:24.097406+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:38:24.099288+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-12T11:38:24.102058+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: duplicate enquiry already saved
+2026-11-12T11:38:24.128598+00:00,save_enquiry,category='Product Engineering'; description_chars=62; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:38:24.130245+00:00,save_enquiry,previous preview replaced,blocked: previous preview invalidated by changed/new preview
+2026-11-12T11:38:24.138258+00:00,save_enquiry,category='Product Engineering'; description_chars=71; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:38:24.139148+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T11:38:24.150284+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:38:24.150876+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T11:38:24.151547+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T11:38:24.152380+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T11:38:24.153193+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false
+2026-11-12T11:46:44.813784+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:46:44.815436+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-12T11:46:44.818785+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: duplicate enquiry already saved
+2026-11-12T11:46:44.832971+00:00,save_enquiry,category='Product Engineering'; description_chars=62; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:46:44.834656+00:00,save_enquiry,previous preview replaced,blocked: previous preview invalidated by changed/new preview
+2026-11-12T11:46:44.842523+00:00,save_enquiry,category='Product Engineering'; description_chars=71; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:46:44.843181+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T11:46:44.861529+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-12T11:46:44.862376+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-12T11:46:44.864293+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T11:46:44.865351+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-12T11:46:44.866397+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false

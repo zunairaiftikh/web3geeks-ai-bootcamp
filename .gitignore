@@ -1,5 +1,33 @@
+﻿# Python environments and caches
 .venv/
-.venv/
+**/.venv/
+venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets and environment files
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+**/*service-account*.json
+**/*service_account*.json
+**/google-credentials*.json
+
+# Local vector database and private runtime state
+week4/chroma_db/
+week4/agent_saved_ids.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local sample database
+week2/Chinook_Sqlite.sqlite
