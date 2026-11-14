@@ -1,0 +1,43 @@
+[
+  {
+    "current_question_id": "6",
+    "query": "delivery timeline guarantee project two weeks",
+    "matches": [
+      {
+        "text": "Netixsol builds web platforms, internal tools,\n        management systems and learning management systems.\n        Its process includes product scoping, UI and UX design,\n        development, testing, deployment and handover.\n        Technologies include React, Next.js, TypeScript,\n        Node.js, PostgreSQL and MongoDB.\n        Each milestone produces working software,\n        documentation and a build that clients can review.",
+        "title": "Product Engineering",
+        "source_url": "https://www.netixsol.com/product-engineering",
+        "cosine_distance": 0.3559565544128418
+      },
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.37531614303588867
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.3893659710884094
+      },
+      {
+        "text": "Netixsol develops AI agents that answer questions,\n        take actions and work with business data.\n        Services include workflow agents, natural-language analytics,\n        LLM assistants grounded in company documents using RAG,\n        data pipelines, evaluation and guardrails.\n        Its StatGPT project uses LangGraph, OpenAI models,\n        PostgreSQL and semantic search.\n        AI assistants can show the sources supporting their answers.",
+        "title": "AI Agents and Data Engineering",
+        "source_url": "https://www.netixsol.com/ai-agents",
+        "cosine_distance": 0.3913886547088623
+      }
+    ]
+  },
+  {
+    "current_question_id": "6",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  }
+]

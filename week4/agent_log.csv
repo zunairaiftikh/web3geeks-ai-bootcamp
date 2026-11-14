@@ -73,3 +73,83 @@ time_utc,tool_name,argument_summary,result
 2026-11-12T11:46:44.864293+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
 2026-11-12T11:46:44.865351+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
 2026-11-12T11:46:44.866397+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false
+2026-11-13T13:40:35.027985+00:00,search_netixsol,query_chars=23,returned 4 chunks
+2026-11-13T13:40:54.603653+00:00,search_netixsol,query_chars=69,returned 4 chunks
+2026-11-13T13:41:15.082773+00:00,search_netixsol,query_chars=37,returned 4 chunks
+2026-11-13T13:50:08.581668+00:00,search_netixsol,query_chars=58,returned 4 chunks
+2026-11-13T13:50:17.176578+00:00,search_netixsol,query_chars=82,returned 4 chunks
+2026-11-13T13:50:35.904941+00:00,search_netixsol,query_chars=35,returned 4 chunks
+2026-11-13T14:06:35.755257+00:00,search_netixsol,query_chars=68,returned 4 chunks
+2026-11-13T14:06:49.010031+00:00,search_netixsol,query_chars=42,returned 4 chunks
+2026-11-13T14:07:00.705722+00:00,search_netixsol,query_chars=57,returned 4 chunks
+2026-11-13T14:07:42.472646+00:00,search_netixsol,query_chars=61,returned 4 chunks
+2026-11-13T14:07:54.150166+00:00,search_netixsol,query_chars=31,returned 4 chunks
+2026-11-13T14:08:11.072422+00:00,search_netixsol,query_chars=54,returned 4 chunks
+2026-11-13T14:08:40.020940+00:00,search_netixsol,query_chars=31,returned 4 chunks
+2026-11-13T14:47:46.814935+00:00,search_netixsol,query_chars=31,returned 4 chunks
+2026-11-13T14:47:48.963376+00:00,search_netixsol,query_chars=27,returned 4 chunks
+2026-11-13T14:55:15.545885+00:00,search_netixsol,query_chars=45,returned 4 chunks
+2026-11-13T15:38:02.924039+00:00,search_netixsol,query_chars=26,returned 4 chunks
+2026-11-13T15:40:35.174529+00:00,search_netixsol,query_chars=31,returned 4 chunks
+2026-11-13T15:40:51.113020+00:00,search_netixsol,query_chars=27,returned 4 chunks
+2026-11-13T16:08:04.608467+00:00,search_netixsol,query_chars=27,returned 4 chunks
+2026-11-13T16:08:24.981776+00:00,search_netixsol,query_chars=40,returned 4 chunks
+2026-11-13T16:08:39.521175+00:00,search_netixsol,query_chars=41,returned 4 chunks
+2026-11-13T16:10:05.453475+00:00,save_enquiry,category='Product Engineering'; description_chars=56; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-13T16:11:12.392903+00:00,save_enquiry,human_next_message,blocked: prior preview invalidated; exact token was not supplied
+2026-11-13T16:11:13.884121+00:00,save_enquiry,category='Product Engineering'; description_chars=156; requirements=4,preview_created; awaiting exact human confirmation
+2026-11-13T16:13:28.602384+00:00,save_enquiry,category='Product Engineering'; description_chars=69; requirements=5,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:11.636414+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:11.638736+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-13T16:22:11.654229+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: duplicate enquiry already saved
+2026-11-13T16:22:11.656721+00:00,save_enquiry,category='Product Engineering'; description_chars=62; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:11.658139+00:00,save_enquiry,previous preview replaced,blocked: previous preview invalidated by changed/new preview
+2026-11-13T16:22:11.660484+00:00,save_enquiry,category='Product Engineering'; description_chars=71; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:11.661381+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-13T16:22:11.663802+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:11.664636+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-13T16:22:11.666277+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-13T16:22:11.667200+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-13T16:22:11.667992+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false
+2026-11-13T16:22:45.926579+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:45.928469+00:00,save_enquiry,category=Product Engineering; requirements=2,saved: n8n webhook returned HTTP 200
+2026-11-13T16:22:45.931261+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: duplicate enquiry already saved
+2026-11-13T16:22:45.933478+00:00,save_enquiry,category='Product Engineering'; description_chars=62; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:45.934983+00:00,save_enquiry,previous preview replaced,blocked: previous preview invalidated by changed/new preview
+2026-11-13T16:22:45.936486+00:00,save_enquiry,category='Product Engineering'; description_chars=71; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:45.937103+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-13T16:22:45.939752+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,preview_created; awaiting exact human confirmation
+2026-11-13T16:22:45.940502+00:00,save_enquiry,human_confirmation_received,blocked: exact current-preview confirmation missing; preview invalidated
+2026-11-13T16:22:45.941661+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-13T16:22:45.942510+00:00,save_enquiry,category='Legal Advice'; description_chars=55; requirements=2,blocked: invalid fields
+2026-11-13T16:22:45.943035+00:00,save_enquiry,category='Product Engineering'; description_chars=55; requirements=2,blocked: consent is false
+2026-11-14T09:31:48.052923+00:00,search_netixsol,query_chars=81,returned 4 chunks
+2026-11-14T09:34:13.343304+00:00,search_netixsol,query_chars=66,returned 4 chunks
+2026-11-14T09:35:10.681496+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=89; requirements=4,preview_created; awaiting exact human confirmation
+2026-11-14T09:36:06.231660+00:00,save_enquiry,category=Blockchain & DeFi; requirements=4,saved: n8n webhook returned HTTP 200
+2026-11-14T10:18:34.680659+00:00,search_netixsol,query_chars=24,returned 4 chunks
+2026-11-14T10:20:42.749560+00:00,search_netixsol,query_chars=40,returned 4 chunks
+2026-11-14T10:21:32.076083+00:00,search_netixsol,query_chars=36,returned 4 chunks
+2026-11-14T10:22:25.840696+00:00,search_netixsol,query_chars=46,returned 4 chunks
+2026-11-14T10:23:23.724409+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=89; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-14T10:24:12.840512+00:00,save_enquiry,category=Blockchain & DeFi; requirements=3,saved: n8n webhook returned HTTP 200
+2026-11-14T14:07:32.536503+00:00,search_netixsol,query_chars=24,returned 4 chunks
+2026-11-14T14:09:18.040885+00:00,search_netixsol,query_chars=38,returned 4 chunks
+2026-11-14T14:10:21.308534+00:00,search_netixsol,query_chars=36,returned 4 chunks
+2026-11-14T14:12:33.342939+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=175; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-14T14:14:20.881880+00:00,save_enquiry,category=Blockchain & DeFi,blocked: webhook request failed (ReadTimeout)
+2026-11-14T14:14:50.998373+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=175; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-14T14:16:04.778762+00:00,save_enquiry,category=Blockchain & DeFi,blocked: webhook request failed (ReadTimeout)
+2026-11-14T14:16:31.318227+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=175; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-14T14:17:44.400218+00:00,save_enquiry,category=Blockchain & DeFi,blocked: webhook request failed (ReadTimeout)
+2026-11-14T14:18:34.361978+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=175; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-14T14:20:25.618955+00:00,search_netixsol,query_chars=62,returned 4 chunks
+2026-11-14T14:21:07.532563+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=193; requirements=4,preview_created; awaiting exact human confirmation
+2026-11-14T14:22:22.146350+00:00,save_enquiry,category=Blockchain & DeFi,blocked: webhook request failed (ReadTimeout)
+2026-11-14T14:34:11.062766+00:00,search_netixsol,query_chars=78,returned 4 chunks
+2026-11-14T14:34:27.262111+00:00,save_enquiry,category='Blockchain & DeFi'; description_chars=101; requirements=3,preview_created; awaiting exact human confirmation
+2026-11-14T14:35:43.365381+00:00,save_enquiry,category=Blockchain & DeFi,blocked: webhook request failed (ReadTimeout)
+2026-11-14T14:38:17.356894+00:00,search_netixsol,query_chars=28,returned 4 chunks
+2026-11-14T14:40:09.673273+00:00,search_netixsol,query_chars=31,returned 4 chunks
+2026-11-14T14:41:01.195228+00:00,search_netixsol,query_chars=44,returned 4 chunks
+2026-11-14T14:42:00.079979+00:00,search_netixsol,query_chars=46,returned 4 chunks

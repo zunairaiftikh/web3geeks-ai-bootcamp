@@ -1,0 +1,7 @@
+google-genai
+python-dotenv
+pydantic>=2
+chromadb
+requests
+
+streamlit>=1.40

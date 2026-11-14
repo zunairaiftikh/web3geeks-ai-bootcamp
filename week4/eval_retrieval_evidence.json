@@ -1,0 +1,329 @@
+[
+  {
+    "current_question_id": "1",
+    "query": "Netixsol services offerings AI agents blockchain product engineering",
+    "matches": [
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.1759812831878662
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.20525139570236206
+      },
+      {
+        "text": "Netixsol develops AI agents that answer questions,\n        take actions and work with business data.\n        Services include workflow agents, natural-language analytics,\n        LLM assistants grounded in company documents using RAG,\n        data pipelines, evaluation and guardrails.\n        Its StatGPT project uses LangGraph, OpenAI models,\n        PostgreSQL and semantic search.\n        AI assistants can show the sources supporting their answers.",
+        "title": "AI Agents and Data Engineering",
+        "source_url": "https://www.netixsol.com/ai-agents",
+        "cosine_distance": 0.20973515510559082
+      },
+      {
+        "text": "Netixsol designs, builds and audits DeFi protocols,\n        decentralized exchanges and smart contracts.\n        Its services include lending and borrowing markets,\n        staking, asset tokenization, crypto wallets,\n        NFT marketplaces and decentralized applications.\n        It works with Solidity, Hardhat, Foundry, Truffle,\n        OpenZeppelin, Ethereum, Polygon, Arbitrum and BNB Smart Chain.\n        Security practices include testing, threat modelling,\n        multisig recommendations and timelocks.",
+        "title": "Blockchain and DeFi Development",
+        "source_url": "https://www.netixsol.com/blockchain-development",
+        "cosine_distance": 0.22748661041259766
+      }
+    ]
+  },
+  {
+    "current_question_id": "1",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "2",
+    "query": "decentralized exchange DEX blockchain DeFi",
+    "matches": [
+      {
+        "text": "Netixsol designs, builds and audits DeFi protocols,\n        decentralized exchanges and smart contracts.\n        Its services include lending and borrowing markets,\n        staking, asset tokenization, crypto wallets,\n        NFT marketplaces and decentralized applications.\n        It works with Solidity, Hardhat, Foundry, Truffle,\n        OpenZeppelin, Ethereum, Polygon, Arbitrum and BNB Smart Chain.\n        Security practices include testing, threat modelling,\n        multisig recommendations and timelocks.",
+        "title": "Blockchain and DeFi Development",
+        "source_url": "https://www.netixsol.com/blockchain-development",
+        "cosine_distance": 0.3097178339958191
+      },
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.36525189876556396
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.3771372437477112
+      },
+      {
+        "text": "Netixsol develops AI agents that answer questions,\n        take actions and work with business data.\n        Services include workflow agents, natural-language analytics,\n        LLM assistants grounded in company documents using RAG,\n        data pipelines, evaluation and guardrails.\n        Its StatGPT project uses LangGraph, OpenAI models,\n        PostgreSQL and semantic search.\n        AI assistants can show the sources supporting their answers.",
+        "title": "AI Agents and Data Engineering",
+        "source_url": "https://www.netixsol.com/ai-agents",
+        "cosine_distance": 0.4111659526824951
+      }
+    ]
+  },
+  {
+    "current_question_id": "2",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "3",
+    "query": "decentralized exchange wallet integration blockchain DeFi",
+    "matches": [
+      {
+        "text": "Netixsol designs, builds and audits DeFi protocols,\n        decentralized exchanges and smart contracts.\n        Its services include lending and borrowing markets,\n        staking, asset tokenization, crypto wallets,\n        NFT marketplaces and decentralized applications.\n        It works with Solidity, Hardhat, Foundry, Truffle,\n        OpenZeppelin, Ethereum, Polygon, Arbitrum and BNB Smart Chain.\n        Security practices include testing, threat modelling,\n        multisig recommendations and timelocks.",
+        "title": "Blockchain and DeFi Development",
+        "source_url": "https://www.netixsol.com/blockchain-development",
+        "cosine_distance": 0.3151731491088867
+      },
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.3733481764793396
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.3907681107521057
+      },
+      {
+        "text": "Netixsol develops AI agents that answer questions,\n        take actions and work with business data.\n        Services include workflow agents, natural-language analytics,\n        LLM assistants grounded in company documents using RAG,\n        data pipelines, evaluation and guardrails.\n        Its StatGPT project uses LangGraph, OpenAI models,\n        PostgreSQL and semantic search.\n        AI assistants can show the sources supporting their answers.",
+        "title": "AI Agents and Data Engineering",
+        "source_url": "https://www.netixsol.com/ai-agents",
+        "cosine_distance": 0.412222683429718
+      }
+    ]
+  },
+  {
+    "current_question_id": "3",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "4",
+    "query": "what happens after submitting a project brief enquiry process",
+    "matches": [
+      {
+        "text": "Netixsol builds web platforms, internal tools,\n        management systems and learning management systems.\n        Its process includes product scoping, UI and UX design,\n        development, testing, deployment and handover.\n        Technologies include React, Next.js, TypeScript,\n        Node.js, PostgreSQL and MongoDB.\n        Each milestone produces working software,\n        documentation and a build that clients can review.",
+        "title": "Product Engineering",
+        "source_url": "https://www.netixsol.com/product-engineering",
+        "cosine_distance": 0.36724281311035156
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.38822484016418457
+      },
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.3890654444694519
+      },
+      {
+        "text": "Netixsol develops AI agents that answer questions,\n        take actions and work with business data.\n        Services include workflow agents, natural-language analytics,\n        LLM assistants grounded in company documents using RAG,\n        data pipelines, evaluation and guardrails.\n        Its StatGPT project uses LangGraph, OpenAI models,\n        PostgreSQL and semantic search.\n        AI assistants can show the sources supporting their answers.",
+        "title": "AI Agents and Data Engineering",
+        "source_url": "https://www.netixsol.com/ai-agents",
+        "cosine_distance": 0.4102504849433899
+      }
+    ]
+  },
+  {
+    "current_question_id": "4",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "5",
+    "query": "mobile application cost pricing",
+    "matches": [
+      {
+        "text": "Netixsol builds web platforms, internal tools,\n        management systems and learning management systems.\n        Its process includes product scoping, UI and UX design,\n        development, testing, deployment and handover.\n        Technologies include React, Next.js, TypeScript,\n        Node.js, PostgreSQL and MongoDB.\n        Each milestone produces working software,\n        documentation and a build that clients can review.",
+        "title": "Product Engineering",
+        "source_url": "https://www.netixsol.com/product-engineering",
+        "cosine_distance": 0.4045873284339905
+      },
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.42046475410461426
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.42633354663848877
+      },
+      {
+        "text": "Netixsol designs, builds and audits DeFi protocols,\n        decentralized exchanges and smart contracts.\n        Its services include lending and borrowing markets,\n        staking, asset tokenization, crypto wallets,\n        NFT marketplaces and decentralized applications.\n        It works with Solidity, Hardhat, Foundry, Truffle,\n        OpenZeppelin, Ethereum, Polygon, Arbitrum and BNB Smart Chain.\n        Security practices include testing, threat modelling,\n        multisig recommendations and timelocks.",
+        "title": "Blockchain and DeFi Development",
+        "source_url": "https://www.netixsol.com/blockchain-development",
+        "cosine_distance": 0.4317662715911865
+      }
+    ]
+  },
+  {
+    "current_question_id": "5",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "6",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "7",
+    "query": "product engineering website user login admin dashboard",
+    "matches": [
+      {
+        "text": "Netixsol builds web platforms, internal tools,\n        management systems and learning management systems.\n        Its process includes product scoping, UI and UX design,\n        development, testing, deployment and handover.\n        Technologies include React, Next.js, TypeScript,\n        Node.js, PostgreSQL and MongoDB.\n        Each milestone produces working software,\n        documentation and a build that clients can review.",
+        "title": "Product Engineering",
+        "source_url": "https://www.netixsol.com/product-engineering",
+        "cosine_distance": 0.3491321802139282
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.3607889413833618
+      },
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.38125115633010864
+      },
+      {
+        "text": "Netixsol designs, builds and audits DeFi protocols,\n        decentralized exchanges and smart contracts.\n        Its services include lending and borrowing markets,\n        staking, asset tokenization, crypto wallets,\n        NFT marketplaces and decentralized applications.\n        It works with Solidity, Hardhat, Foundry, Truffle,\n        OpenZeppelin, Ethereum, Polygon, Arbitrum and BNB Smart Chain.\n        Security practices include testing, threat modelling,\n        multisig recommendations and timelocks.",
+        "title": "Blockchain and DeFi Development",
+        "source_url": "https://www.netixsol.com/blockchain-development",
+        "cosine_distance": 0.3919820785522461
+      }
+    ]
+  },
+  {
+    "current_question_id": "7",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "8",
+    "query": "blockchain development services",
+    "matches": [
+      {
+        "text": "Netixsol designs, builds and audits DeFi protocols,\n        decentralized exchanges and smart contracts.\n        Its services include lending and borrowing markets,\n        staking, asset tokenization, crypto wallets,\n        NFT marketplaces and decentralized applications.\n        It works with Solidity, Hardhat, Foundry, Truffle,\n        OpenZeppelin, Ethereum, Polygon, Arbitrum and BNB Smart Chain.\n        Security practices include testing, threat modelling,\n        multisig recommendations and timelocks.",
+        "title": "Blockchain and DeFi Development",
+        "source_url": "https://www.netixsol.com/blockchain-development",
+        "cosine_distance": 0.3117263913154602
+      },
+      {
+        "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+        "title": "Netixsol Homepage",
+        "source_url": "https://www.netixsol.com/",
+        "cosine_distance": 0.34192830324172974
+      },
+      {
+        "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+        "title": "Netixsol UAE",
+        "source_url": "https://www.netixsol.com/uae",
+        "cosine_distance": 0.3436698317527771
+      },
+      {
+        "text": "Netixsol builds web platforms, internal tools,\n        management systems and learning management systems.\n        Its process includes product scoping, UI and UX design,\n        development, testing, deployment and handover.\n        Technologies include React, Next.js, TypeScript,\n        Node.js, PostgreSQL and MongoDB.\n        Each milestone produces working software,\n        documentation and a build that clients can review.",
+        "title": "Product Engineering",
+        "source_url": "https://www.netixsol.com/product-engineering",
+        "cosine_distance": 0.35943400859832764
+      }
+    ]
+  },
+  {
+    "current_question_id": "8",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP",
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "9",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  },
+  {
+    "current_question_id": "10",
+    "evaluation_metadata": {
+      "finish_reasons": [
+        "STOP"
+      ],
+      "preview_status": "no_pending_preview",
+      "submission_blocked": true,
+      "webhook_disabled": true
+    }
+  }
+]
