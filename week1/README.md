@@ -1,5 +1,5 @@
 
-# Week 1 — Day 1: Python Essentials and NumPy
+# Week 1 â€” Day 1: Python Essentials and NumPy
 
 ## 1. Pure Python Statistics Tool
 
@@ -9,13 +9,13 @@ and population standard deviation without NumPy.
 Run with numbers:
 
 ```powershell
-python .\week1\day1_stats_cli.py 10 20 30 40 50
+python .\week1\day1_numpy.py 10 20 30 40 50
 ```
 
 Run using the sample file:
 
 ```powershell
-python .\week1\day1_stats_cli.py --file .\week1\sample.txt
+python .\week1\day1_numpy.py --file .\week1\sample.txt
 ```
 
 ## 2. NumPy Statistics Tool

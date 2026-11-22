@@ -1,0 +1,44 @@
+{
+  "test_id": "Q5_new_captured_retest",
+  "started_at_utc": "2026-11-21T17:29:10.908119+00:00",
+  "question": "How much does a mobile application cost?",
+  "answer": "The available sources do not specify the cost of a mobile application ([Netixsol Homepage](https://www.netixsol.com/), [Product Engineering](https://www.netixsol.com/product-engineering), [Blockchain and DeFi Development](https://www.netixsol.com/blockchain-development), [Netixsol UAE](https://www.netixsol.com/uae)). \n\nIf you would like to discuss a mobile application or product engineering project, please share a bit about your idea or requirements, and we can help scope it out.",
+  "finish_reasons": [
+    "STOP",
+    "STOP"
+  ],
+  "retrieval": [
+    {
+      "query": "mobile application cost pricing",
+      "matches": [
+        {
+          "text": "Netixsol builds web platforms, internal tools,\n        management systems and learning management systems.\n        Its process includes product scoping, UI and UX design,\n        development, testing, deployment and handover.\n        Technologies include React, Next.js, TypeScript,\n        Node.js, PostgreSQL and MongoDB.\n        Each milestone produces working software,\n        documentation and a build that clients can review.",
+          "title": "Product Engineering",
+          "source_url": "https://www.netixsol.com/product-engineering",
+          "cosine_distance": 0.4045873284339905
+        },
+        {
+          "text": "Netixsol builds AI agents, DeFi protocols and digital products\n        for clients worldwide from Dubai and Pakistan.\n        Its services include AI agents and data, blockchain and DeFi,\n        and product engineering.\n        Netixsol was founded in 2020.\n        Its website reports 375+ projects shipped, 40+ engineers\n        since 2020, and work across 25+ blockchains.\n        Its delivery process includes scoping, architecture,\n        milestone builds, audit and handover.",
+          "title": "Netixsol Homepage",
+          "source_url": "https://www.netixsol.com/",
+          "cosine_distance": 0.42046475410461426
+        },
+        {
+          "text": "Netixsol has a front office at Innovation One, DIFC,\n        Dubai, United Arab Emirates.\n        Its engineering team is based in Faisalabad, Pakistan.\n        The company serves UAE clients through scoping calls,\n        written proposals, milestone-based development\n        and project handover.\n        Its UAE services include AI agents and data,\n        blockchain and DeFi, and product engineering.\n        Netixsol does not provide legal or regulatory advice.",
+          "title": "Netixsol UAE",
+          "source_url": "https://www.netixsol.com/uae",
+          "cosine_distance": 0.42633354663848877
+        },
+        {
+          "text": "Netixsol designs, builds and audits DeFi protocols,\n        decentralized exchanges and smart contracts.\n        Its services include lending and borrowing markets,\n        staking, asset tokenization, crypto wallets,\n        NFT marketplaces and decentralized applications.\n        It works with Solidity, Hardhat, Foundry, Truffle,\n        OpenZeppelin, Ethereum, Polygon, Arbitrum and BNB Smart Chain.\n        Security practices include testing, threat modelling,\n        multisig recommendations and timelocks.",
+          "title": "Blockchain and DeFi Development",
+          "source_url": "https://www.netixsol.com/blockchain-development",
+          "cosine_distance": 0.4317662715911865
+        }
+      ],
+      "match_count": 4
+    }
+  ],
+  "external_submission_disabled": true,
+  "provenance": "New captured retest. Not evidence from the earlier historical Q5 run."
+}
