@@ -525,3 +525,22 @@ For each confirmed enquiry, count the corresponding rows in the TEST Google Shee
 - Not verified: visible Streamlit rendering, persistence on rerun,
   real provider-generated truncation, or the cause of historical
   incomplete responses.
+
+## Manual TEST Sheet Workflow — 22 November 2026
+
+Test data: Fictional Demo Client / Demo Equipment Rentals enquiry.
+
+Results:
+- Preview shown: PASS — the enquiry details were displayed before submission.
+- Exact confirmation used: PASS — the confirmation token displayed for
+  this preview was used.
+- One TEST Sheet row created: PASS — the new row was checked in the
+  TEST Google Sheet.
+- Repeated confirmation created no extra row: PASS — the same token
+  was sent again and no additional row appeared.
+
+Method: Manual app interaction and visual inspection of the TEST Sheet.
+
+Scope: This verifies the normal save flow and repeated-confirmation
+protection for this test. It does not verify timeout-after-write
+duplicate safety or concurrent submissions.
