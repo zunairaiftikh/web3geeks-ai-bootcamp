@@ -544,3 +544,20 @@ Method: Manual app interaction and visual inspection of the TEST Sheet.
 Scope: This verifies the normal save flow and repeated-confirmation
 protection for this test. It does not verify timeout-after-write
 duplicate safety or concurrent submissions.
+
+## Simulated Finish-Reason UI Test — 22 November 2026
+
+An isolated temporary copy of app.py replaced the model-turn call
+with simulated finish reasons. The test used the existing agent
+warning helper and app warning-display/message-storage logic.
+The original app.py and agent.py were not modified.
+
+Manual results:
+- MAX_TOKENS displayed the incomplete-response warning: PASS.
+- The warning remained after the next chat message: PASS.
+- A subsequent STOP response had no completion warning: PASS.
+- The earlier warning remained after Streamlit's app-menu rerun: PASS.
+
+Scope: This verifies warning rendering and persistence in the
+isolated simulated UI test. It does not verify a real provider-generated
+non-STOP response or establish the cause of Tuesday's cut-off answers.

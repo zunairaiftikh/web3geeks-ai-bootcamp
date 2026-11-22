@@ -227,7 +227,11 @@ transfer checks, not proof of comprehensive scoping or general performance.
 ## Finish Reasons
 
 The current app is intended to show a warning when the final response does not
-end with `STOP`. A visible non-STOP warning still needs a recorded test.
+end with `STOP`. A simulated MAX_TOKENS UI test verified visible warning rendering,
+persistence after another message, and persistence after an app-menu
+rerun. The subsequent STOP response showed no completion warning.
+See demo_test_results.md. Real provider-generated truncation remains
+unverified.
 
 The historical rows reviewed here ended with `STOP`; they do not establish
 why Tuesday's answers were cut. A token-limit explanation requires an actual
@@ -277,7 +281,8 @@ Keep a rehearsal recording available as an internet-failure backup.
 ## Remaining Acceptance Checks
 
 - Evaluation CSVs synchronized; Q5 captured retest verified.
-- Record a visible non-STOP warning.
+- Simulated non-STOP warning rendering and persistence verified;
+  real provider-generated truncation remains unverified.
 - Verify controlled timeout-after-write behaviour.
 - Finish Week 1–3 cleanup and remove the obsolete agent copy.
 - Fresh-clone setup and basic application verification completed;
