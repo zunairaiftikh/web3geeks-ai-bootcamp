@@ -31,3 +31,5 @@ Thumbs.db
 
 # Local sample database
 week2/Chinook_Sqlite.sqlite
+
+week4/chroma_db_rebuild_check/
