@@ -1,4 +1,4 @@
-# Netixsol AI Client Intake & Project Scoping Agent
+﻿# Netixsol AI Client Intake & Project Scoping Agent
 
 ## Overview
 
@@ -280,6 +280,32 @@ Keep a rehearsal recording available as an internet-failure backup.
 - Record a visible non-STOP warning.
 - Verify controlled timeout-after-write behaviour.
 - Finish Week 1–3 cleanup and remove the obsolete agent copy.
-- Follow these instructions from a separate fresh clone.
+- Fresh-clone setup and basic application verification completed;
+  see the verification section below.
 - Finalize six readable slides and record a timed rehearsal.
 - Review staged files for secrets and push separate logical commits.
+
+## Fresh-Clone Verification — 22 November 2026
+
+Verified repository commit:
+4d2ee83b108ff89d0c72ec33655faebb2572265d
+
+A separate clone was tested using a newly created virtual environment.
+
+Passed:
+- Dependency installation using week4/requirements-day3.txt.
+- Python compilation of agent.py, app.py, and build_chroma.py.
+- Offline agent self-test.
+- Knowledge-index rebuild from the committed source_documents.json.
+- Streamlit application launch on port 8502.
+- A service question returned an answer, with retrieved source passages
+  accessible in the application.
+
+Environment note: C: was low on disk space, so temporary files and the pip
+cache were redirected to F: for installation. The original project's
+virtual environment and Chroma index were not reused.
+
+Scope: This verifies fresh-clone setup and basic application operation.
+The offline self-test mocks webhook delivery; this check does not verify
+a real Google Sheet write or timeout-after-write duplicate safety.
+Historical evaluation scores were not recalculated for the rebuilt index.
