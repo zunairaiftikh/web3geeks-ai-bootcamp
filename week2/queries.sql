@@ -39,8 +39,6 @@ France	195.1	5	39.02
 Brazil	190.1	5	38.02
 Germany	156.48	4	39.12
 
-
-
 Business meaning: 
 The USA earns the most ($523.06) with 13 customers, about $40 from each customer, The revenue from each customer is about 37 to 40USD thats almost 
 same for the top countries, the main difference is of number of customer, more customers means more revenue as each customer spend almost the same.
